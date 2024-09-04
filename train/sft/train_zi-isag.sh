@@ -1,0 +1,20 @@
+deepspeed --include localhost:0,1,2,3 main_no_padding.py \
+   --data_path  ../../data/instruction_set/zi-isag/example \
+   --data_split 1,0,0 \
+   --model_name_or_path YOUR_MODLE_PATH \
+   --max_seq_len 16384 \
+   --learning_rate 5e-6 \
+   --weight_decay 0. \
+   --num_train_epochs 3  \
+   --gradient_accumulation_steps 4 \
+   --lr_scheduler_type cosine_with_min_lr \
+   --num_warmup_steps 0 \
+   --seed 1234 \
+   --gradient_checkpointing \
+   --zero_stage 3 \
+   --deepspeed \
+   --output_dir ./model_ckpts/ \
+   --exp_name YOUR_EXP_NAME \
+   --tensorboard_path ./save_tensorboard \
+   --data_output_path ./YOUR_DATA_OUTPUT \
+   --enable_tensorboard
