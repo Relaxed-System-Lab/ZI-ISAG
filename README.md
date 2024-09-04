@@ -20,8 +20,8 @@ This project was made possible thanks to a collaboration with:
 - [Train](#train)
 
 ## Paradigm
-<img src="https://github.com/Relaxed-System-Lab/ZI-ISAG/blob/main/images/Search-RAG-Internet.png" width="650" height="310" alt="zi-isag-paradigm">
+<img src="https://github.com/Relaxed-System-Lab/ZI-ISAG/blob/main/images/Search-RAG-Internet.png" width="520" height="248" alt="zi-isag-paradigm">
 
 ## Extractor LLM
-<img src="https://github.com/Relaxed-System-Lab/ZI-ISAG/blob/main/images/case.png" width="650" height="380" alt="extractor-llm-case">
+<img src="https://github.com/Relaxed-System-Lab/ZI-ISAG/blob/main/images/case.png" width="520" height="304" alt="extractor-llm-case">
 
